@@ -1,4 +1,7 @@
-Reasons you should blog about your technical tribulations
+---
+layout: post
+title: Reasons you should blog about your technical tribulations
+---
 
 Blogging is a very common and constantly evolving thing now a days,
 with millions of people blogging about millions of different topics.
