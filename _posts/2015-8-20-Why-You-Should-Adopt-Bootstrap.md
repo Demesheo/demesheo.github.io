@@ -13,7 +13,7 @@ title: Why you should adopt Bootstrap
 	the client can now see the same content, but now 
 	resized and ordered appropriately for their device.
 
-	A few cool things about Bootstrap is the vast amount
+	A few cool things about Bootstrap are the vast amount
 	of community created HTML/CSS templates and themes that
 	are available to be used or modified to fit your needs.
 	Another is that Bootstrap is responsive enough to adapt
