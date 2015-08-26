@@ -15,4 +15,17 @@ title: Enhancing your Sublime Text Editor 2
 	git clone https://github.com/SublimeLinter/SublimeLinter.git
 	```
 
-	This will create a new package in your sublime package folder called SublimeLinter.
+	This will create a new package in your sublime package folder called SublimeLinter. So once you restart your sublime text editor, go ahead and navigate to preferences -> package settings -> SublimeLinter -> Settings - User .
+
+	Once in there you have a few options you can change, me personally I like my errors to be outlined and to have the linter constantly running instead of just on load or save. To do so I made the following changes.
+
+	On line 13, I changed "sublimelinter" : "load-save",
+	to be "sublimelinter" : true,
+
+	On line 73, I changed "sublimelinter_mark_style": "none",
+	to be "sublimelinter_mark_style": "outline",
+
+	On line 107, I changed "sublimelinter_popup_errors_on_save": false,
+	to be "sublimelinter_popup_errors_on_save": true,
+
+	So now I can see all my errors outlined as I type out my code and upon saving, all of my errors are listed on screen so I can make the appropriate changes before commiting and pushing my code to github.
