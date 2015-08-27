@@ -29,3 +29,20 @@ title: Enhancing your Sublime Text Editor 2
 	to be "sublimelinter_popup_errors_on_save": true,
 
 	So now I can see all my errors outlined as I type out my code and upon saving, all of my errors are listed on screen so I can make the appropriate changes before commiting and pushing my code to github.
+
+	Once we have our linter set up and functioning correctly we can go ahead and add our build system to run code directly from our text editor instead of having to jump back and forth, copying and pasting code into the console.
+
+	The first step is to install node.js from their website.
+	
+	The second step is inside of sublime text 2, go to tools -> build system -> new build system
+
+	If there is any existing code, go ahead and replace it with the following and save it as Node.sublime-build
+	```
+	{
+  	"cmd": ["node", "$file"],
+  	"selector": "*.js"
+ 	}
+ 	```
+ 	So now to run your code, just press command + b or navigate to tools -> build!
+
+
